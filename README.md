@@ -32,18 +32,57 @@ Participants are expected to have some experience in computer programming and to
 
 ## Installation of Julia
 
+### Quick start: using Julia on juliabox
+The simplest way to use Julia is to go to juliabox.com. Once you log in (e.g. with a gmail account), you can run Julia code online (on Amazon Cloud servers) via the browser-based Jupyter notebook interface without installing anything on your computer.
+
+Although you wouldn't want to run large computations on juliabox, it should be fine for simple homework problems.
+
+To add our lecture material, click the `Git` button on the top left in the menu bar. Then insert the course material url
+```
+https://github.com/csc-training/julia-introduction.git
+```
+and type `master` for the branch. Folder name can be whatever you like, for example `julia-csc`.
+
+
+
+### Installing Julia and IJulia 
+If you use Julia enough, you'll eventually want to install it on your own computer. Your code will run faster and won't require a network connection, but can still use the same browser-based notebook interface.
+
+First, [download the current release of Julia](http://julialang.org/downloads/) version 0.6.x and run the installer. Then run the Julia application (double-click on it); a window with a julia> prompt will appear. At the prompt, type:
+```julia
+Pkg.add("IJulia")
+```
+You may also want to install these packages, which we tend to use in a lot of the lecture materials
+```julia
+Pkg.add("Plots")
+Pkg.add("PlotlyJS")
+Pkg.add("PyPlot")
+```
+
+
+Then you can launch the notebook in your browser by running
+```julia
+using IJulia
+notebook()
+```
+
 
 ## Lecture material usage
-
-
+Lecture material can be read directly from GitHub  using your browser. Just click yourself inside the `notebooks` directory. However, for best experience, you should open the notebooks in the notebook environment. Installation of `Jupyter` notebooks and IJulia for this is described above.
 
 
 ----
 ## References
 Much of this material is based on different excellent content found around the web such as:
+
+### General topics
 - Julialang.org
 - Official Julia manual: https://docs.julialang.org/en/latest/manual/
 - JuliaBox.com and the excellent tutorials therein
 - https://en.wikibooks.org/wiki/Introducing_Julia
 - [Introduction to python](https://github.com/csc-training/python-introduction) course at CSC
 
+
+### Parallellism:
+- https://slides.com/valentinchuravy/julia-parallelism
+- MIT course: Performance Computing in a High Level Language: https://github.com/stevengj/18S096

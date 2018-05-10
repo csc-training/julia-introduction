@@ -1,6 +1,6 @@
 # Introduction to Julia
 
-This repository contains the content for the Introduction to Julia course at CSC.
+This repository contains the content for the [Introduction to Julia](https://www.csc.fi/web/training/-/julia_intro_2018) course at CSC.
 
 Julia is a new emerging high-level, high-performance programming language. It aims to be simple to write and fast to run. In this course, we will introduce the basic concepts of programming with Julia. We will also discuss selected Julia packages and give an introduction to the Julia ecosystem. The course contains both lectures and hands-on exercises. All the material is provided as interactive notebooks.
 
@@ -30,10 +30,16 @@ Participants are expected to have some experience in computer programming and to
 | 16:15 | End of day     |  End of course 
 
 
+## Lecture material usage
+Lecture material can be read directly from GitHub  using your browser. Just click yourself inside the `notebooks` directory. However, for best experience, you should open the notebooks in the notebook environment. Installation of `Jupyter` notebooks and IJulia for this is described below.
+
+For a quick introduction to the Jupyter notebook environment, see the [00_notebooks.ipynb](notebooks/00_notebooks.ipynb).
+
+
 ## Installation of Julia
 
 ### Quick start: using Julia on juliabox
-The simplest way to use Julia is to go to juliabox.com. Once you log in (e.g. with a gmail account), you can run Julia code online (on Amazon Cloud servers) via the browser-based Jupyter notebook interface without installing anything on your computer.
+The simplest way to use Julia is to go to [juliabox.com](https://www.juliabox.com/). Once you log in (e.g. with a gmail account), you can run Julia code online (on Amazon Cloud servers) via the browser-based Jupyter notebook interface without installing anything on your computer.
 
 Although you wouldn't want to run large computations on juliabox, it should be fine for simple homework problems.
 
@@ -43,6 +49,8 @@ https://github.com/csc-training/julia-introduction.git
 ```
 and type `master` for the branch. Folder name can be whatever you like, for example `julia-csc`.
 
+**Caveat**:
+Packages can not be installed using the Julia package manager. You must install external packages by clicking the `Packages` button on the top menu. After that, just type the name of the package and hit install.
 
 
 ### Installing Julia and IJulia 
@@ -65,10 +73,6 @@ Then you can launch the notebook in your browser by running
 using IJulia
 notebook()
 ```
-
-
-## Lecture material usage
-Lecture material can be read directly from GitHub  using your browser. Just click yourself inside the `notebooks` directory. However, for best experience, you should open the notebooks in the notebook environment. Installation of `Jupyter` notebooks and IJulia for this is described above.
 
 
 ----

@@ -1,0 +1,5 @@
+.DS_Store
+slides/*.html
+.ipynb_checkpoints/
+reveal.js
+

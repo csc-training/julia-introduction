@@ -22,7 +22,7 @@ Participants are expected to have some experience in computer programming and to
 | 10:45 | Control flow   |  Julia ecosystem 
 | 11:15 | **Exercises**  |  **Exercises**   
 | 12:15 | *Lunch*        |  *Lunch*
-| 13:00 | Functions      |  Julia ecosystem II 
+| 13:15 | Functions      |  Julia ecosystem II 
 | 13:45 | **Exercises**  |  **Exercises** 
 | 14:30 | Coffee break   |  Coffee break 
 | 14:45 | IO             |  High performance computing

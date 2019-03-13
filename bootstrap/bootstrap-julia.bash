@@ -9,5 +9,5 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/csc-training/julia-introduction.git
 
 # clean up as host script doesn't do so yet
-rmdior work
+rmdir work
 rm bootstrap-julia.bash

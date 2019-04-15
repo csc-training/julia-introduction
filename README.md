@@ -1,10 +1,10 @@
 # Introduction to Julia
 
-This repository contains the content for the [Introduction to Julia](https://www.csc.fi/web/training/-/julia_intro_2018) course at CSC.
+This repository contains the content for the [Introduction to Julia](https://www.csc.fi/web/training/-/julia_intro_2019) course at CSC.
 
 Julia is a new emerging high-level, high-performance programming language. It aims to be simple to write and fast to run. In this course, we will introduce the basic concepts of programming with Julia. We will also discuss selected Julia packages and give an introduction to the Julia ecosystem. The course contains both lectures and hands-on exercises. All the material is provided as interactive notebooks.
 
-The course is aimed for everybody with beginner to intermediate level of skills in programming. However, the notebooks and exercises contain extra material marked with **Advanced** tags, that can be of interest to the more experienced users too. Don't feel overwhelmed by them, some of them can be very specific to some particular field. Instead, if you find some of them interesting, feel free to just mess around with them and have some fun. That is the whole point of programming with a high-level language anyway!
+The course is aimed for everybody with beginner to intermediate level of skills in programming. However, the notebooks and exercises also contain extra material marked with **Advanced** tags that are aimed for the more experienced users. Don't feel overwhelmed by them, some of them can be very specific to some particular field of science. Instead, if you find some of them interesting, feel free to just mess around with them and have some fun. That is the whole point of programming with a high-level language anyway!
 
 
 
@@ -38,6 +38,16 @@ For a quick introduction to the Jupyter notebook environment, see the [00_notebo
 
 ## Installation of Julia
 
+### CSC notebook environment
+In the course we use the [CSC notebook environment](https://notebooks.csc.fi/).
+
+Once logged in, go to "Account" and "Join Group" by using the code provided to you.
+
+After joining the group, you should see "Introduction to Julia" in the Dashboard.
+
+All the hands-on exercises can be done in the cloud environment using the workstations in the training class (or using own laptop if you prefer so). 
+
+
 ### Quick start: using Julia on juliabox
 The simplest way to use Julia is to go to [juliabox.com](https://www.juliabox.com/). Once you log in (e.g. with a gmail account), you can run Julia code online (on Amazon Cloud servers) via the browser-based Jupyter notebook interface without installing anything on your computer.
 
@@ -56,8 +66,10 @@ Packages can not be installed using the Julia package manager. You must install 
 ### Installing Julia and IJulia 
 If you use Julia enough, you'll eventually want to install it on your own computer. Your code will run faster and won't require a network connection, but can still use the same browser-based notebook interface.
 
-First, [download the current release of Julia](http://julialang.org/downloads/) version 0.6.x and run the installer. Then run the Julia application (double-click on it); a window with a julia> prompt will appear. At the prompt, type:
+First, [download the current release of Julia](http://julialang.org/downloads/) and run the installer. Then open the Julia application (double-click on it); a window with a julia> prompt will appear. At the prompt, type:
+
 ```julia
+using Pkg
 Pkg.add("IJulia")
 ```
 You may also want to install these packages, which we tend to use in a lot of the lecture materials

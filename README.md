@@ -13,22 +13,22 @@ Participants are expected to have some experience in computer programming and to
 
 
 ## Timetable
+|       |        | Monday         |  Tueday 
+| ----- |--------| -------------- | ----------- 
+| 09:00 | 45min  | Intro          |  Development practices 
+| 09:45 | 45min  | **Exercises**  |  **Exercises**          
+| 10:30 | 15min  | Coffee break   |  Coffee break          
+| 10:45 | 30min  | Control flow   |  Julia ecosystem 
+| 11:15 | 60min  | **Exercises**  |  **Exercises**   
+| 12:15 | 60min  | *Lunch*        |  *Lunch*
+| 13:15 | 30min  | Functions      |  Performance tips 
+| 13:45 | 45min  | **Exercises**  |  **Exercises**
+| 14:30 | 15min  | Coffee break   |  Coffee break 
+| 14:45 | 30min  | IO             |  Julia ecosystem II
+| 15:15 | 60min  | **Exercises**  |  End of course 
+| 16:15 |        | End of day     |  
 
-|       | Monday         |  Tueday 
-| ----- |--------------- | ----------- 
-| 09:00 | Intro          |  Development practices 
-| 09:45 | **Exercises**  |  **Exercises**          
-| 10:30 | Coffee break   |  Coffee break          
-| 10:45 | Control flow   |  Julia ecosystem 
-| 11:15 | **Exercises**  |  **Exercises**   
-| 12:15 | *Lunch*        |  *Lunch*
-| 13:15 | Functions      |  Julia ecosystem II 
-| 13:45 | **Exercises**  |  **Exercises** 
-| 14:30 | Coffee break   |  Coffee break 
-| 14:45 | IO             |  High performance computing
-| 15:15 | **Exercises**  |  **Exercises** 
-| 16:15 | End of day     |  End of course 
-
+ 
 
 ## Lecture material usage
 Lecture material can be read directly from GitHub  using your browser. Just click yourself inside the `notebooks` directory. However, for best experience, you should open the notebooks in the notebook environment. Installation of `Jupyter` notebooks and IJulia for this is described below.

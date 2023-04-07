@@ -13,7 +13,7 @@ Participants are expected to have some experience in computer programming and to
 
 
 ## Timetable
-|       |        | Monday         |  Tueday 
+|       |        | Monday         |  Tuesday 
 | ----- |--------| -------------- | ----------- 
 | 09:00 | 45min  | Intro          |  Development practices 
 | 09:45 | 45min  | **Exercises**  |  **Exercises**          
@@ -99,6 +99,6 @@ Much of this material is based on different excellent content found around the w
 - [Introduction to python](https://github.com/csc-training/python-introduction) course at CSC
 
 
-### Parallellism:
+### Parallelism:
 - https://slides.com/valentinchuravy/julia-parallelism
 - MIT course: Performance Computing in a High Level Language: https://github.com/stevengj/18S096

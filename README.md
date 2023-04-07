@@ -13,7 +13,7 @@ Participants are expected to have some experience in computer programming and to
 
 
 ## Timetable
-|       |        | Monday         |  Tueday 
+|       |        | Monday         |  Tuesday 
 | ----- |--------| -------------- | ----------- 
 | 09:00 | 45min  | Intro          |  Development practices 
 | 09:45 | 45min  | **Exercises**  |  **Exercises**          
